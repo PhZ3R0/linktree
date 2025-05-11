@@ -28,6 +28,9 @@ body {
 #main {
     width: 400px;
     height: 590px;
+    min-width: 275px;
+    max-width: 1440px;
+
     margin: auto;
 
     border-radius: 30px;
@@ -62,7 +65,8 @@ div h2 {
     justify-content: center;
 }
 #botDiv a {
-    width: 350px;
+    min-width: 275px;
+    max-width: 350px;
     height: 50px;
     display: flex;
     margin: 20px auto 40px auto;
@@ -78,6 +82,8 @@ div h2 {
     margin-bottom: 15px;
     font-weight: bold;
     font-size: 20px;
+
+    
 }
 #botDiv > a > p {
     font-size: 15px;
